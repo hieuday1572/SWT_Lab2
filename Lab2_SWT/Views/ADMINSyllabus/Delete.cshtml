@@ -1,0 +1,177 @@
+﻿@model LMMProject.Models.Syllabus
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete-detail.css">
+    <title>Delete</title>
+</head>
+<body>
+
+    <div class="color">
+    <h1> Delete Syllabus</h1>
+    </div>
+    <div>
+        <div class="container-center">
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.SyllabusId)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.SyllabusId)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.SyllabusNameVn)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.SyllabusNameVn)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.SyllabusNameEn)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.SyllabusNameEn)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.SubjectCode)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.SubjectCode)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NoCredit)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.NoCredit)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DegreeLevel)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.DegreeLevel)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TimeAllocation)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.TimeAllocation)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PreRequisite)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.PreRequisite)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.Description)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.StudentTask)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.StudentTask)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Tool)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.Tool)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ScoringScale)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.ScoringScale)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Decision)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.Decision.DecisionNo)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsApproved)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.IsApproved)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Note)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.Note)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.MinAvgMarkToPass)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.MinAvgMarkToPass)
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsActive)
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.IsActive)
+                    </td>
+                </tr>
+
+            </table>
+            <div class="delete-section">
+                <h4>Are you sure you want to delete?</h4>
+                <form asp-action="Delete">
+                    <input type="hidden" asp-for="SyllabusId" />
+                    <input type="submit" value="Delete" class="btn btn-danger" class="btn btn-primary" /> |
+                    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

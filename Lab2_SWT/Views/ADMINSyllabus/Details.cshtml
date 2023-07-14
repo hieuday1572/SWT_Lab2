@@ -1,0 +1,170 @@
+﻿@model LMMProject.Models.Syllabus
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/syllabus-details.css">
+    <title>Details</title>
+</head>
+<body>
+
+    <div class="curri-details">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-action="Index">Back</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+                <p>Syllabus Details</p>
+            </b>
+
+        </div>
+        <table class="table">
+            <tr>
+                <th>Syllabus ID:</th>
+                <td>@Model.SyllabusId</td>
+            </tr>
+            <tr>
+                <th>Syllabus Name:</th>
+                <td>@Model.SyllabusNameVn</td>
+            </tr>
+            <tr>
+                <th>Syllabus English:</th>
+                <td>@Model.SyllabusNameEn</td>
+            </tr>
+            <tr>
+                <th>Subject Code:</th>
+                <td>@Model.SubjectCode</td>
+            </tr>
+            <tr>
+                <th>NoCredit:</th>
+                <td>@Model.NoCredit</td>
+            </tr>
+            <tr>
+                <th>Degree Level:</th>
+                <td>@Model.DegreeLevel</td>
+            </tr>
+            <tr>
+                <th>Time Allocation:</th>
+                <td>@Model.TimeAllocation</td>
+            </tr>
+            <tr>
+                <th>Pre-Requisite:</th>
+                <td>@Model.PreRequisite</td>
+            </tr>
+            <tr>
+                <th>Description:</th>
+                <td>@Model.Description</td>
+            </tr>
+            <tr>
+                <th>StudentTasks:</th>
+                <td>@Model.StudentTask</td>
+            </tr>
+            <tr>
+                <th>Tools:</th>
+                <td>@Model.Tool</td>
+            </tr>
+            <tr>
+                <th>Scoring Scale:</th>
+                <td>@Model.ScoringScale</td>
+            </tr>
+            <tr>
+                <th>DecisionNo MM/dd/yyyy:</th>
+                <td>@Model.DecisionNo</td>
+            </tr>
+            <tr>
+                <th>IsApproved:</th>
+                <td>@Model.IsApproved</td>
+            </tr>
+            <tr>
+                <th>Note:</th>
+                <td>@Model.Note</td>
+            </tr>
+            <tr>
+                <th>MinAvgMarkToPass:</th>
+                <td>@Model.MinAvgMarkToPass</td>
+            </tr>
+            <tr>
+                <th>IsActive:</th>
+                <td>@Model.IsActive</td>
+            </tr>
+            <tr>
+                <th>ApprovedDate:</th>
+                <td>@Model.IsApproved</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td colspan="14">
+                    <a asp-action="Edit" asp-route-id="@Model?.SyllabusId" class="btn btn-primary">Edit</a>                   
+                </td>
+            </tr>
+        </table>
+
+        <div class="table-container">
+            <table class="table-2">
+                <thead>
+                    <tr>
+                        <th>AssessmentID</th>
+                        <th>Category</th>
+                        <th>Type</th>
+                        <th>Part</th>
+                        <th>Weight</th>
+                        <th>Completion Criteria</th>
+                        <th>Duration</th>
+                        <th>CLO</th>
+                        <th>Question Type</th>
+                        <th>No Question</th>
+                        <th>Knowledge and Skill</th>
+                        <th>Grading Guide</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @foreach (var assessment in Model.Assessments)
+                    {
+                        <tr>
+                            <td>@assessment.AssessmentId</td>
+                            <td>@assessment.Category</td>
+                            <td>@assessment.Type</td>
+                            <td>@assessment.Part</td>
+                            <td>@assessment.Weight</td>
+                            <td>@assessment.CompletionCriteria</td>
+                            <td>@assessment.Duration</td>
+                            <td>@assessment.Clo</td>
+                            <td>@assessment.QuestionType</td>
+                            <td>@assessment.NoQuestion</td>
+                            <td>@assessment.KnowledgeSkill</td>
+                            <td>@assessment.GradingGuide</td>
+                            <td>@assessment.Note</td>
+
+                        </tr>
+
+                    }
+                </tbody>
+                <tr>
+                    <td colspan="14">
+                        <a asp-action="index" asp-controller="ADMINAssessments" class="btn btn-primary">AssessmentList</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</body>
+</html>

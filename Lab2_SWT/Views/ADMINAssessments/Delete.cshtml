@@ -1,0 +1,131 @@
+﻿@model LMMProject.Models.Assessment
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete-detail.css">
+
+</head>
+<body>
+    <div class="color">
+        <h1> Delete Assessment</h1>
+    </div>
+    <div>
+        <div class="container-center">
+            <table class="table-1">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Category)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Type)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Part)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Weight)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CompletionCriteria)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Duration)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Clo)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.QuestionType)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.NoQuestion)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.KnowledgeSkill)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.GradingGuide)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Note)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Syllabus)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.SyllabusId)
+                        </th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(model => model.Category)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Type)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Part)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Weight)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.CompletionCriteria)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Duration)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Clo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.QuestionType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.NoQuestion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.KnowledgeSkill)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.GradingGuide)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Note)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Syllabus.SubjectCode)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.SyllabusId)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="delete-section">
+                <h4>Are you sure you want to delete?</h4>
+                <form asp-action="Delete">
+                    <input type="hidden" asp-for="AssessmentId" />
+                    <input type="submit" value="Delete" class="btn btn-danger" class="btn btn-primary" /> |
+                    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

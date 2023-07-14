@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Account>
+@inject IHttpContextAccessor Accessor
+@{
+    Layout = null;
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="~/css/home.css">
+
+</head>
+
+<body>
+
+    <div class="banner">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="UserHome" asp-action="Infor">Information</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a asp-controller="Login" asp-action="Index">Logout</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Learning Materials Management</h1>
+            <p>USER's feature</p>
+            <p hidden>@Accessor.HttpContext.Session.GetString("Username")</p>
+            <div>
+                <a asp-controller="UserCurriculum" asp-action="Index"><button type="button"><span></span>View Curriculum</button></a>
+                <a href="~/html/syllabus.html"><button type="button"><span></span>View Syllabus</button></a>
+                <a href="~/html/learning.html"><button type="button"><span></span>Show Learning Path of a Subject</button></a>
+                @if (Accessor.HttpContext.Session.GetInt32("role")==2)
+                {
+                    <a asp-controller="UserMaterialOfTeachers" asp-action="Index"><button type="button"><span></span>View Your Additional Materials</button></a>
+                }
+            </div>
+        </div>
+    </div>
+</body>

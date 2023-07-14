@@ -1,0 +1,67 @@
+﻿@model Decision
+@inject IHttpContextAccessor Accessor
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/curri-details.css">
+    <title>Details</title>
+</head>
+<body>
+
+    <div class="curri-details">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+                <p>Decision Details</p>
+            </b>
+
+        </div>
+        <table class="table">
+            <tr>
+                <th>Decision No:</th>
+                <td>@Model.DecisionNo</td>
+            </tr>
+            <tr>
+                <th>Decision Name:</th>
+                <td>
+                    @Model.DecisionName
+                </td>
+            </tr>
+            <tr>
+                <th>Note:</th>
+                <td>@Model.Note</td>
+            </tr>
+            <tr>
+                <th>Create date:</th>
+                <td>
+                    @Model.CreateDate
+                </td>
+            </tr>
+        </table>
+        <div>
+            <form asp-controller="UserCurriculum" asp-action="Index" method="post">
+                <input hidden name="option" type="text" value="@Accessor.HttpContext.Session.GetString("option")" />
+                <input hidden name="search" type="text" value="@Accessor.HttpContext.Session.GetString("search")" />
+                <button type="submit">Back</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

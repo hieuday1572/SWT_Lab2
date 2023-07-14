@@ -1,0 +1,66 @@
+﻿@model LMMProject.Models.MaterialOfTeacher
+@inject IHttpContextAccessor Accessor
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+
+<h4>MaterialOfTeacher</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+            @if (TempData["error"] != null)
+            {
+                <div class="col-md-12 alert alert-danger">
+                    <span style="color:red"><b>Sorry!</b> - @TempData["error"]</span>
+                </div>
+            }
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeacherUsername" class="control-label"></label>
+                    <input asp-for="TeacherUsername" readonly value="@Accessor.HttpContext.Session.GetString("Username")" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="SubjectCode" class="control-label"></label>
+                    <input asp-for="SubjectCode" required class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="URL" class="control-label"></label>
+                <input asp-for="URL" required class="form-control" />
+                <span asp-validation-for="URL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                    <input asp-for="Status" readonly value="waiting" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+</body>
+</html>

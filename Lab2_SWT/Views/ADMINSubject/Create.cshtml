@@ -1,0 +1,70 @@
+﻿@model LMMProject.Models.Subject
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete.css">
+</head>
+<body>
+
+    <div class="color">
+        <h1> Create Subject</h1>
+    </div>
+    <div class="container-center">
+        @if (TempData["Error"] != null)
+        {
+            <div class="col-md-12 alert alert-danger">
+                <span style="color:red"><b>Sorry!</b> - @TempData["Error"]</span>
+            </div>
+        }
+    <div class="col-md-4">
+            <div class="square-container">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="SubjectCode" class="control-label"></label>
+                <input asp-for="SubjectCode" class="form-control" />
+                <span asp-validation-for="SubjectCode" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="SubjectNameVn" class="control-label"></label>
+                <input asp-for="SubjectNameVn" class="form-control" />
+                <span asp-validation-for="SubjectNameVn" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="SubjectNameEn" class="control-label"></label>
+                <input asp-for="SubjectNameEn" class="form-control" />
+                <span asp-validation-for="SubjectNameEn" class="text-danger"></span>
+            </div>    
+            <div class="form-group mb-3">
+                <label asp-for="PreRequisite" class="control-label"></label>
+                <input asp-for="PreRequisite" class="form-control" />
+                <span asp-validation-for="PreRequisite" class="text-danger"></span>
+            </div>
+                <div class="form-group mb-3">
+                    <label asp-for="StatusId" class="control-label"></label>
+                    <input asp-for="StatusId" class="form-control"/>
+                    <span asp-validation-for="StatusId" class="text-danger"></span>
+                </div>
+            <div class="form-group mb-3">
+                <input type="submit" value="Create" class="btn btn-primary" /> |
+                    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+            </div>
+        </form>
+            </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+</body>
+</html>

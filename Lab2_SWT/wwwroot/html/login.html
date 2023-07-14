@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="../css/login.css">
+    <title>signin-signup</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Learning Materials Management</h1>
+    </div>
+</body>
+
+<body>
+
+    <div class="container">
+
+        <div class="signin-signup">
+            <form action="" class="sign-in-form">
+                <h2 class="title">Sign in</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <input type="submit" value="Login" class="btn">
+                <p class="social-text">Or Sign in with Google</p>
+                <div class="social-media">
+                    <a href="" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </form>
+            <form action="" class="sign-up-form">
+                <a href="../html/curriculum.html"><button type="button" class="learn"> View Curriculum </button></a>
+                <a href="../html/syllabus.html"><button type="button" class="learn" > View Syllabus </button></a>
+                <a href="../html/subject.html"><button type="button"  class="learn" > Show Learning Path of a Subject </button></a>
+
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3> You already have an account?</h3>
+                    <p>Click here to login and you can access more materials.</p>
+                    <button class="btn" id="sign-in-btn">Sign in</button>
+                </div>
+                <img src="../image/signin.svg" alt="" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>You don't have an account?</h3>
+                    <p>Just click here and you will immediately access the shared document.</p>
+                    <button class="btn" id="sign-up-btn">Guest</button>
+                </div>
+                <img src="../image/signup.svg" alt="" class="image">
+            </div>
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

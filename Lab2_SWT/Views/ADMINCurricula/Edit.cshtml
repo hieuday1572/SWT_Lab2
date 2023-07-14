@@ -1,0 +1,69 @@
+﻿@model LMMProject.Models.Curriculum
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete.css">
+</head>
+<body>
+    <div class="color">
+        <h1> Edit Curriculum</h1>
+    </div>
+
+    <div class="container-center">
+        <div class="col-md-4">
+            <div class="square-container">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="CurriculumId" />
+                    <div class="form-group mb-3">
+                        <label asp-for="CurriculumCode" class="control-label"></label>
+                        <input asp-for="CurriculumCode" class="form-control" readonly />
+                        <span asp-validation-for="CurriculumCode" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="NameVn" class="control-label"></label>
+                        <input asp-for="NameVn" class="form-control" />
+                        <span asp-validation-for="NameVn" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="NameEn" class="control-label"></label>
+                        <input asp-for="NameEn" class="form-control" />
+                        <span asp-validation-for="NameEn" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Decription" class="control-label"></label>
+                        <input asp-for="Decription" class="form-control" />
+                        <span asp-validation-for="Decription" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="DecisionNo" class="control-label"></label>
+                        <select asp-for="DecisionNo" class="form-control" asp-items="ViewBag.DecisionNo"></select>
+                        <span asp-validation-for="DecisionNo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="submit" value="Save" class="btn btn-primary" /> |
+                        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+
+</body>
+</html>

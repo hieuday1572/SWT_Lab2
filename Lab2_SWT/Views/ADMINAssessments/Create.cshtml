@@ -1,0 +1,118 @@
+﻿@model LMMProject.Models.Assessment
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/crud-syllabus.css">
+</head>
+<body>
+
+    <div class="color">
+        <h1> Create Assessment</h1>
+    </div>
+    <div class="container-center">
+        <div class="col-md-4">
+            <div class="square-container">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Category" class="control-label"></label>
+                <input asp-for="Category" class="form-control" />
+                <span asp-validation-for="Category" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="Type" class="control-label"></label>
+                <input asp-for="Type" class="form-control" />
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="Part" class="control-label"></label>
+                <input asp-for="Part" class="form-control" />
+                <span asp-validation-for="Part" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="Weight" class="control-label"></label>
+                <input asp-for="Weight" class="form-control" />
+                <span asp-validation-for="Weight" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="CompletionCriteria" class="control-label"></label>
+                <input asp-for="CompletionCriteria" class="form-control" />
+                <span asp-validation-for="CompletionCriteria" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="Duration" class="control-label"></label>
+                <input asp-for="Duration" class="form-control" />
+                <span asp-validation-for="Duration" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="Clo" class="control-label"></label>
+                <input asp-for="Clo" class="form-control" />
+                <span asp-validation-for="Clo" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="QuestionType" class="control-label"></label>
+                <input asp-for="QuestionType" class="form-control" />
+                <span asp-validation-for="QuestionType" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="NoQuestion" class="control-label"></label>
+                <input asp-for="NoQuestion" class="form-control" />
+                <span asp-validation-for="NoQuestion" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="KnowledgeSkill" class="control-label"></label>
+                <input asp-for="KnowledgeSkill" class="form-control" />
+                <span asp-validation-for="KnowledgeSkill" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="GradingGuide" class="control-label"></label>
+                <input asp-for="GradingGuide" class="form-control" />
+                <span asp-validation-for="GradingGuide" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="Note" class="control-label"></label>
+                <input asp-for="Note" class="form-control" />
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+
+                <div class="form-group mb-3">
+                <label asp-for="SyllabusId" class="control-label"></label>
+                <select asp-for="SyllabusId" class ="form-control" asp-items="ViewBag.SyllabusId"></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" /> |
+                <a asp-action="Index" class="btn btn-primary">Back to List </a>
+            </div>
+        </form>
+            </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+</body>
+</html>

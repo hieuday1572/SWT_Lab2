@@ -1,0 +1,67 @@
+﻿@model IEnumerable<LMMProject.flm.Session>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Topic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LearningTeachingType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudentMaterials)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConstructiveQuestion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubjectCode)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Topic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LearningTeachingType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentMaterials)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConstructiveQuestion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubjectCode)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SessionId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SessionId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SessionId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

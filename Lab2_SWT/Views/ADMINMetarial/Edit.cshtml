@@ -1,0 +1,74 @@
+﻿@model LMMProject.Models.MaterialFilterModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete.css">
+</head>
+<body>
+    <div class="color">
+        <h1> Edit Material</h1>
+    </div>
+    <
+    <div class="container-center">
+        <div class="col-md-4">
+            <div class="square-container">
+                <form method="POST" action="/ADMINMetarial/SubmitUpdate">
+                    <div tclass="form-group mb-3">
+                        <label>Select subject</label>
+                        <select class="form-control" name="SubjectCode">
+                            @foreach (var item in Model.Subjects)
+                            {
+                                if (item.SubjectCode.Equals(Model.Material.SubjectCode))
+                                {
+                                    <option selected>@item.SubjectCode</option>
+                                }
+                                else
+                                {
+                                    <option>@item.SubjectCode</option>
+                                }
+
+                            }
+                        </select>
+                    </div>
+                    <div tclass="form-group mb-3">
+                        <label>Author</label>
+                        <input class="form-control" type="text" name="Author" value="@Model.Material.Author" placeholder="Enter the Author" />
+                    </div>
+                    <div tclass="form-group mb-3">
+                        <label>Publisher</label>
+                        <input class="form-control" type="text" name="Publisher" value="@Model.Material.Publisher" placeholder="Enter the Publisher" />
+                    </div>
+                    <div tclass="form-group mb-3">
+                        <label>Published Date</label>
+                        <input class="form-control" type="date" value="@Model.Material.PublishedDate" name="PublishedDate" placeholder="Enter the Published Date" />
+                    </div>
+                    <div tclass="form-group mb-3">
+                        <label>URL</label>
+                        <input class="form-control" type="text" name="URL" value="@Model.Material.Url" placeholder="Enter the URL" />
+                    </div>
+                    <div tclass="form-group mb-3">
+                        <label>Description</label>
+                        <textarea class="form-control" placeholder="Enter the Description" name="MaterialDescription">@Model.Material.MaterialDescription</textarea>
+                    </div>
+                    <input type="hidden" name="MaterialId" value="@Model.Material.MaterialId" />
+                    <div tclass="form-group mb-3">
+                        <input type="submit" value="Update" class="btn btn-success" class="btn btn-primary" />
+                        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

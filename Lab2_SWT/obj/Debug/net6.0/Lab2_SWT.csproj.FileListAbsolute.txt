@@ -1,0 +1,8 @@
+C:\Users\ADMIN\OneDrive\Desktop\Lab2_SWT\Lab2_SWT\obj\Debug\net6.0\Lab2_SWT.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Desktop\Lab2_SWT\Lab2_SWT\obj\Debug\net6.0\Lab2_SWT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\OneDrive\Desktop\Lab2_SWT\Lab2_SWT\obj\Debug\net6.0\Lab2_SWT.AssemblyInfoInputs.cache
+C:\Users\ADMIN\OneDrive\Desktop\Lab2_SWT\Lab2_SWT\obj\Debug\net6.0\Lab2_SWT.AssemblyInfo.cs
+C:\Users\ADMIN\OneDrive\Desktop\Lab2_SWT\Lab2_SWT\obj\Debug\net6.0\Lab2_SWT.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Desktop\Lab2_SWT\Lab2_SWT\obj\Debug\net6.0\Lab2_SWT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\OneDrive\Desktop\Lab2_SWT\Lab2_SWT\obj\Debug\net6.0\Lab2_SWT.RazorAssemblyInfo.cache
+C:\Users\ADMIN\OneDrive\Desktop\Lab2_SWT\Lab2_SWT\obj\Debug\net6.0\Lab2_SWT.RazorAssemblyInfo.cs

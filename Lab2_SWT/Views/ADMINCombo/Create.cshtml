@@ -1,0 +1,64 @@
+﻿@model LMMProject.Models.Combo
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete.css">
+</head>
+<body>
+    <div class="color">
+        <h1> Create Combos</h1>
+    </div>
+    <div class="container-center">
+        <div class="col-md-4">
+            <div class="square-container">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group mb-3">
+                        <label asp-for="ComboNameVn" class="control-label"></label>
+                        <input asp-for="ComboNameVn" class="form-control" />
+                        <span asp-validation-for="ComboNameVn" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="ComboNameEn" class="control-label"></label>
+                        <input asp-for="ComboNameEn" class="form-control" />
+                        <span asp-validation-for="ComboNameEn" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Note" class="control-label"></label>
+                        <input asp-for="Note" class="form-control" />
+                        <span asp-validation-for="Note" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Tag" class="control-label"></label>
+                        <input asp-for="Tag" class="form-control" />
+                        <span asp-validation-for="Tag" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="CurriculumId" class="control-label"></label>
+                        <input readonly asp-for="CurriculumId" value="@ViewBag.CurriculumId" class="form-control" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="submit" value="Create" class="btn btn-primary" /> |
+                        <a asp-action="Index" asp-route-id="@ViewBag.CurriculumId" class="btn btn-primary">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

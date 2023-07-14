@@ -1,0 +1,100 @@
+﻿@model IEnumerable<Curriculum>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/curriculum.css">
+
+</head>
+
+<body>
+
+    <div class="curriculum">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
+            </ul>
+
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+                <h1>Curriculum Listing</h1>
+                @if (TempData["error"] != null)
+                {
+                    <div class="col-md-12 alert alert-danger">
+                        <span><b>@TempData["error"]</b></span>
+                    </div>
+                }
+            </b>
+            
+            <div class="search-box">
+                
+                <form asp-action="Index">
+                <b>Enter Curriculum: </b>
+                <select name="option" class="select">
+                        <option selected value="code">Code</option>
+                    <option value="name">Name</option>
+                </select>
+                <input class="input-box" type="text" name="search" placeholder="Search" />
+                <button class="search" type="submit"><i class="fa-solid fa-magnifying-glass">SEARCH</i></button>
+                </form>
+            </div>
+            @if (Model != null)
+            {
+                @if (Model.Count() > 0)
+                {
+                    <table class="table table-bordered table-hover">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.CurriculumCode)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.NameVn)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.NameEn)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Decision)
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <a asp-action="Detail" asp-route-id="@item.CurriculumId"> @Html.DisplayFor(modelItem => item.CurriculumCode)</a>
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.NameVn)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.NameEn)
+                                    </td>
+                                    <td>
+                                        <a asp-controller="UserDecision" asp-action="Index" asp-route-id="@item.DecisionNo"> @Html.DisplayFor(modelItem => item.Decision.DecisionNo)</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+            }
+        </div>
+    </div>
+</body>

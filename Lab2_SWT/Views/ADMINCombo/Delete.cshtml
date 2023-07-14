@@ -1,0 +1,79 @@
+﻿@model LMMProject.Models.Combo
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete-detail.css">
+    <title>Details</title>
+</head>
+<body>
+    <div class="color">
+        <h1> Delete Combo</h1>
+    </div>
+<div>
+        <div class="container-center">
+            <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ComboNameVn)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.ComboNameVn)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ComboNameEn)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.ComboNameEn)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Note)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Note)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tag)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Tag)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Curriculum)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Curriculum.CurriculumCode)
+                </td>
+            </tr>
+
+    </table>
+            <div class="delete-section">
+        <h4>Are you sure you want to delete?</h4>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ComboId" />
+            <input type="submit" value="Delete" class="btn btn-danger" asp-route-id="@Model?.ComboId" class="btn btn-primary" /> |
+            <a asp-action="Index" asp-route-id="@Model?.CurriculumId" class="btn btn-primary">Back to List</a>
+    </form>
+    </div>
+    </div>
+</div>
+</body>
+</html>

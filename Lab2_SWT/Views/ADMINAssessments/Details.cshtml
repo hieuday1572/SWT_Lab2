@@ -1,0 +1,71 @@
+﻿@model LMMProject.Models.Assessment
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+
+<div>
+
+        @if (Model != null)
+        {
+            <table class="table-2">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Type</th>
+                        <th>Part</th>
+                        <th>Weight</th>
+                        <th>Completion Criteria</th>
+                        <th>Duration</th>
+                        <th>CLO</th>
+                        <th>Question Type</th>
+                        <th>No Question</th>
+                        <th>Knowledge and Skill</th>
+                        <th>Grading Guide</th>
+                        <th>Note</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Category</td>
+                        <td>@Model.Type</td>
+                        <td>@Model.Part</td>
+                        <td>@Model.Weight</td>
+                        <td>@Model.CompletionCriteria</td>
+                        <td>@Model.Duration</td>
+                        <td>@Model.Clo</td>
+                        <td>@Model.QuestionType</td>
+                        <td>@Model.NoQuestion</td>
+                        <td>@Model.KnowledgeSkill</td>
+                        <td>@Model.GradingGuide</td>
+                        <td>@Model.Note</td>
+                        <td>
+                            <a asp-action="EditAssessment" asp-route-id="@Model.AssessmentId">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@Model.AssessmentId">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No assessment found.</p>
+        }
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.AssessmentId">Edit</a> |
+   
+</div>
+
+</body>
+</html>

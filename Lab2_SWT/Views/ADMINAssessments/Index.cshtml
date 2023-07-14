@@ -1,0 +1,146 @@
+﻿@model IEnumerable<LMMProject.Models.Assessment>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/assessment.css">
+
+</head>
+<body>
+    <div class="curri-details">
+        <div class="navbar">
+            <img src="../image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-action="Create">Create</a></li>
+                <li><a asp-controller="ADMINSyllabus" asp-action="Index">Back</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+            </b>
+
+        </div>
+        <table class="table">
+            <thead>
+                <tr>                 
+                    <th>
+                        @Html.DisplayNameFor(model => model.Category)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Type)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Part)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Weight)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CompletionCriteria)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Duration)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Clo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.QuestionType)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NoQuestion)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.KnowledgeSkill)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.GradingGuide)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Note)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Syllabus)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.SyllabusId)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var sortedModel = Model.OrderBy(item => item.SyllabusId);
+                }
+                @foreach (var item in sortedModel)
+                {
+                    <tr>                      
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Category)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Type)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Part)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Weight)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CompletionCriteria)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Duration)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Clo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.QuestionType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NoQuestion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.KnowledgeSkill)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.GradingGuide)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Note)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Syllabus.SubjectCode)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SyllabusId)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.AssessmentId" class="btn btn-primary">Edit</a> |
+                            <a asp-action="Delete" asp-route-id="@item.AssessmentId" class="btn btn-primary">Delete</a>
+                        </td>
+
+                    </tr>
+
+                }
+
+            </tbody>           
+        </table>
+
+</body>
+</html>

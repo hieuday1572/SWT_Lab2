@@ -1,0 +1,56 @@
+﻿@model LMMProject.Models.Decision
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete.css">
+</head>
+<body>
+    <div class="color">
+        <h1> Edit Decision</h1>
+    </div>
+    <div class="container-center">
+        <div class="col-md-4">
+            <div class="square-container">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="DecisionNo" />
+                    <div class="form-group mb-3">
+                        <label asp-for="DecisionName" class="control-label"></label>
+                        <input asp-for="DecisionName" class="form-control" />
+                        <span asp-validation-for="DecisionName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Note" class="control-label"></label>
+                        <input asp-for="Note" class="form-control" />
+                        <span asp-validation-for="Note" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="CreateDate" class="control-label"></label>
+                        <input asp-for="CreateDate" class="form-control" />
+                        <span asp-validation-for="CreateDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="submit" value="Save" class="btn btn-primary" /> |
+                        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

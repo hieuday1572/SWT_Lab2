@@ -1,0 +1,67 @@
+﻿@model IEnumerable<LMMProject.Models.Combo>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ComboNameVn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ComboNameEn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Note)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tag)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Curriculum)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ComboNameVn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ComboNameEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Note)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Curriculum.CurriculumCode)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ComboId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ComboId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ComboId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

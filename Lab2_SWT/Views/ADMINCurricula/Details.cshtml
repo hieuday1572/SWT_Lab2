@@ -1,0 +1,126 @@
+﻿@model LMMProject.Models.Curriculum
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/curri-details.css">
+    <title >Details</title>
+</head>
+<body>
+
+    <div class="curri-details">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-action="Index">Back to List</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+                <p>Curriculum Details</p>
+            </b>
+        </div>
+        <table class="table">
+            <tr>
+                <th>Curriculum Code:</th>
+                <td>@Model.CurriculumCode</td>
+            </tr>
+            <tr>
+                <th>Name:</th>
+                <td>
+                    @Model.NameVn
+                </td>
+            </tr>
+            <tr>
+                <th>English Name:</th>
+                <td>@Model.NameEn</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    @Model.Decription
+                </td>
+            </tr>
+            <tr>
+                <th>DecisionNo MM/dd/yyyy:</th>
+                <td>@Model.DecisionNo</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>
+                    <div>
+                        <a asp-action="Edit" asp-route-id="@Model?.CurriculumId" class="btn btn-primary">Edit</a> |
+                        <a asp-controller="ADMINCombo" asp-action="Index" asp-route-id="@Model?.CurriculumId" class="btn btn-primary"> View Combo</a>                        
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="table-container">
+            @if (TempData["error"] != null)
+            {              
+                    <p><b>@TempData["error"]</b></p>               
+            }
+                       
+            <table class="table-2">   
+                
+                <thead>
+                    <tr>
+                        <td colspan="5">
+                            <div class="form-container">
+                                <form asp-controller="ADMINCurricula" asp-action="AddSubject">
+                                    <div class="form-group mb-3">
+                                        <label for="subject-code">Enter Subject code:</label>
+                                        <input type="hidden" name="curriId" value="@Model?.CurriculumId" />
+                                        <input type="text" id="subject-code" name="add" />
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="semester">Enter semester:</label>
+                                        <input type="number" id="semester" name="semester" />
+                                    </div>                                  
+                                        <button type="submit" class="btn btn-primary">ADD SUBJECT</button>                             
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Subject Code</th>
+                        <th>Subject Name</th>
+                        <th>Semester</th>
+                        <th>Status</th>
+                        <th>PreRequisite </th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ViewBag.Curri_sub)
+                    {
+                <tr>
+                            <td>@item.SubjectCode</td>
+                            <td>@item.Subject.SubjectNameEn</td>
+                            <td>@item.Semester</td>
+                            <td>@item.Subject.StatusId</td>
+                            <td>@item.Subject.PreRequisite </td>
+                            <td><a asp-controller="ADMINCurricula" asp-action="DeleteSubject" asp-route-id="@Model?.CurriculumId" asp-route-cu_sub_ID="@item.id"><button type="button"><span></span> DELETE</button></a></td>
+                </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+﻿@model LMMProject.Models.Syllabus
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/crud-syllabus.css">
+</head>
+<body>
+
+    <div class="color">
+        <h1> Edit Syllabus</h1>
+    </div>
+    <div class="container-center">
+        <div class="col-md-4">
+            <div class="square-container">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="SyllabusId" />
+                <div class="form-group mb-3">
+                    <label asp-for="SyllabusNameVn" class="control-label"></label>
+                    <input asp-for="SyllabusNameVn" class="form-control" />
+                    <span asp-validation-for="SyllabusNameVn" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="SyllabusNameEn" class="control-label"></label>
+                    <input asp-for="SyllabusNameEn" class="form-control" />
+                    <span asp-validation-for="SyllabusNameEn" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="SubjectCode" class="control-label"></label>
+                    <select asp-for="SubjectCode" class="form-control">
+                        @foreach (var s in ViewBag.Sub)
+                        {
+                            <option value="@s.SubjectCode">@s.SubjectCode</option>
+                        }
+                    </select>
+                    <span asp-validation-for="SubjectCode" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="NoCredit" class="control-label"></label>
+                    <input asp-for="NoCredit" class="form-control" />
+                    <span asp-validation-for="NoCredit" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="DegreeLevel" class="control-label"></label>
+                    <input asp-for="DegreeLevel" class="form-control" />
+                    <span asp-validation-for="DegreeLevel" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="TimeAllocation" class="control-label"></label>
+                    <input asp-for="TimeAllocation" class="form-control" />
+                    <span asp-validation-for="TimeAllocation" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="PreRequisite" class="control-label"></label>
+                    <input asp-for="PreRequisite" class="form-control" />
+                    <span asp-validation-for="PreRequisite" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="StudentTask" class="control-label"></label>
+                    <input asp-for="StudentTask" class="form-control" />
+                    <span asp-validation-for="StudentTask" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Tool" class="control-label"></label>
+                    <input asp-for="Tool" class="form-control" />
+                    <span asp-validation-for="Tool" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="ScoringScale" class="control-label"></label>
+                    <input asp-for="ScoringScale" class="form-control" />
+                    <span asp-validation-for="ScoringScale" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="DecisionNo" class="control-label"></label>
+                    <select asp-for="DecisionNo" class="form-control" asp-items="ViewBag.DecisionNo"></select>
+                    <span asp-validation-for="DecisionNo" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="IsApproved" class="control-label"></label>
+                    <input asp-for="IsApproved" class="form-control" />
+                    <span asp-validation-for="IsApproved" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Note" class="control-label"></label>
+                    <input asp-for="Note" class="form-control" />
+                    <span asp-validation-for="Note" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="MinAvgMarkToPass" class="control-label"></label>
+                    <input asp-for="MinAvgMarkToPass" class="form-control" />
+                    <span asp-validation-for="MinAvgMarkToPass" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="IsActive" class="control-label"></label>
+                    <input asp-for="IsActive" class="form-control" />
+                    <span asp-validation-for="IsActive" class="text-danger"></span>
+                </div>
+                <div class="form-group ">
+                    <input type="submit" value="Save" class="btn btn-primary" /> |
+                    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

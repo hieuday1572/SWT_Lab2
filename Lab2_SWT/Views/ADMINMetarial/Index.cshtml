@@ -1,0 +1,102 @@
+﻿@model List<LMMProject.Models.Material>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/learning-part.css">
+</head>
+<body>
+    <div class="curri-details">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-action="Create">Create New</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+                <p>Material List</p>
+            </b>
+        </div>
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>
+                        No.
+                    </th>
+                    <th>
+                        Subject Code
+                    </th>
+                    <th>
+                        Material URL
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Author
+                    </th>
+                    <th>
+                        Publisher
+                    </th>
+                    <th>
+                        Published Date
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var index = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @index
+                        </td>
+                        <td>
+                            @item.SubjectCode
+                        </td>
+                        <td>
+                            <a target="_blank" href="@item.Url">@item.Url</a>
+                        </td>                       
+                        <td>
+                            @item.MaterialDescription
+                        </td>
+                        <td>
+                            @item.Author
+                        </td>
+                        <td>
+                            @item.Publisher
+                        </td>
+                        <td>
+                            @item.PublishedDate
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.MaterialId" class="btn btn-primary">Edit</a> |
+                            <a asp-action="Delete" asp-route-id="@item.MaterialId" class="btn btn-primary">Delete</a>
+                            @*<a asp-controller="ADMINSession" asp-action = "Index" asp-route-id="@item.SubjectCode">Session</a>*@
+                        </td>
+                    </tr>
+                    index++;
+                }
+            </tbody>
+        </table>
+
+        </div>
+
+</body>
+</html>

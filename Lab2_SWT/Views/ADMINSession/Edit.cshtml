@@ -1,0 +1,65 @@
+﻿@model LMMProject.Models.Session
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete.css">
+</head>
+<body>
+    <div class="color">
+        <h1> Edit Sessions</h1>
+    </div>
+    <div class="container-center">
+        <div class="col-md-4">
+            <div class="square-container">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="SessionId" />
+                    <div class="form-group">
+                        <label asp-for="Topic" class="control-label"></label>
+                        <input asp-for="Topic" class="form-control" />
+                        <span asp-validation-for="Topic" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="LearningTeachingType" class="control-label"></label>
+                        <input asp-for="LearningTeachingType" class="form-control" />
+                        <span asp-validation-for="LearningTeachingType" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="StudentMaterials" class="control-label"></label>
+                        <input asp-for="StudentMaterials" class="form-control" />
+                        <span asp-validation-for="StudentMaterials" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Constructivequestion" class="control-label"></label>
+                        <input asp-for="Constructivequestion" class="form-control" />
+                        <span asp-validation-for="Constructivequestion" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="SubjectCode" class="control-label"></label>
+                        <select asp-for="SubjectCode" class="form-control" asp-items="ViewBag.SubjectCode"></select>
+                        <span asp-validation-for="SubjectCode" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

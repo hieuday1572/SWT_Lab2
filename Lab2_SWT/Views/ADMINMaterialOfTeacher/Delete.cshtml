@@ -1,0 +1,76 @@
+﻿@model LMMProject.Models.MaterialOfTeacher
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete-detail.css">
+    <title>Delete</title>
+</head>
+<body>
+    <div class="color">
+        <h1> Delete Materials</h1>
+    </div>
+    <div>
+        <div class="container-center">
+            <table class="table-1">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Account)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Subject)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.URL)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.DisplayFor(model => model.Description)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Account.UserName)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Subject.SubjectCode)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.URL)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(model => model.Status)
+                    </td>
+                </tr>
+            </table>
+            <div class="delete-section">
+                <h4>Are you sure you want to delete?</h4>
+                <form asp-action="Delete">
+                    <input type="hidden" asp-for="Id" />
+                    <input type="submit" value="Delete" class="btn btn-danger" class="btn btn-primary" /> |
+                    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

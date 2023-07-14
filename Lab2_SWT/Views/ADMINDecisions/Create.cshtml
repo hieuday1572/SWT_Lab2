@@ -1,0 +1,69 @@
+﻿@model LMMProject.Models.Decision
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete.css">
+</head>
+<body>
+    <div class="color">
+        <h1> Create Decision</h1>
+    </div>
+    <div class="container-center">
+        <div class="col-md-4">
+            @if (TempData["Error"] != null)
+            {
+                <div class="col-md-12 alert alert-danger">
+                    <span style="color:red"><b>Sorry!</b> - @TempData["Error"]</span>
+                </div>
+            }
+            <div class="square-container">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group mb-3">
+                        <label asp-for="DecisionNo" class="control-label"></label>
+                        <input asp-for="DecisionNo" pattern="^[^\/\s]*$" title="Do not enter '/' characters and spaces" class="form-control" />
+                        <span asp-validation-for="DecisionNo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="DecisionName" class="control-label"></label>
+                        <input asp-for="DecisionName" class="form-control" />
+                        <span asp-validation-for="DecisionName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Note" class="control-label"></label>
+                        <input asp-for="Note" class="form-control" />
+                        <span asp-validation-for="Note" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="CreateDate" class="control-label"></label>
+                        <input asp-for="CreateDate" class="form-control" />
+                        <span asp-validation-for="CreateDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="submit" value="Create" class="btn btn-primary" /> |
+                        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

@@ -1,0 +1,83 @@
+﻿@model IEnumerable<LMMProject.Models.ComboSubject>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/combo.css">
+    <title>ListCombo</title>
+</head>
+
+<body>
+
+    <div class="curri-details">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-action="Index" asp-route-id="@ViewBag.Combosub.CurriculumId">Back</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+                 <p>View Combo Detail</p>
+            </b>            
+        </div>        
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ComboName</th>
+                    <td>@ViewBag.Combosub.ComboNameEn</td>
+                </tr>
+            </thead>
+            <tr>
+                <th>Note</th>
+                <td>@ViewBag.Combosub.Note</td>
+            </tr>
+        </table>
+        <div class="table-container">
+            
+           
+            <table class="table-2">
+                <thead>
+                    <tr>
+                        <td colspan="4">
+                            <form asp-controller="ADMINCombo" asp-action="AddSubject">
+                                <p>Enter Subject code you want to add: </p>
+                                <input type="hidden" name="comboId" value="@ViewBag.Combosub.ComboId" />
+                                <input type="text" name="add" />
+                                <button type="submit" class="btn btn-primary">ADD SUBJECT</button>
+                            </form>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <th>ID</th>
+                        <th>Subject Code</th>
+                        <th>Subject Name</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.id</td>
+                        <td>@item.SubjectCode</td>
+                        <td>@item.Subject.SubjectNameEn</td>
+                        <td>@item.Combo.Note</td>
+                        <td><a asp-action="DeleteSubject" asp-route-id="@item.id">Delete</a></td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</body>
+</html>

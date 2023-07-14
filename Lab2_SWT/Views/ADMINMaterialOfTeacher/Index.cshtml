@@ -1,0 +1,125 @@
+﻿@model IEnumerable<LMMProject.Models.MaterialOfTeacher>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/curri-listing.css">
+</head>
+<body>
+    <div class="curri-details">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+                <p>Teacher's materials Listing</p>
+            </b>
+        </div>
+
+
+
+        
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <td colspan="6">
+                        <div class="form-container">
+                            <form asp-action="Index" method="get">
+                                <select name="status" id="lang-select">
+                                    <option value="">--Choose status--</option>
+                                    <option value="all">ALL</option>
+                                    <option value="approved">APPROVED</option>
+                                    <option value="waiting">WAITING</option>
+                                </select>                              
+                                <label>--Enter subject code:</label>
+                                <input name="sub_code" type="text" />
+                                <br />
+                                <button type="submit" class="btn btn-primary">Filter</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                Teacher Name
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.URL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Description)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Account.UserName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Subject.SubjectCode)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.URL)
+                            </td>
+                            @{
+                                if (item.Status.Equals("approved"))
+                                {
+                                    <td >
+                                        <b style="color:green"> @Html.DisplayFor(modelItem => item.Status)</b>
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td>
+                                        <b style="color:orange"> @Html.DisplayFor(modelItem => item.Status)</b>
+                                    </td>
+                                }
+                            }
+                            <td>
+                                @{
+                                    if (!item.Status.Equals("approved"))
+                                    {
+                                        <p> <a asp-action="Edit" asp-route-id="@item.Id">Allow</a> | </p>
+                                    }
+                                }
+
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a>
+                            </td>
+                        </tr>
+                    }
+            </tbody>
+</table>
+        @if (Model.Count() == 0)
+        {
+            <h2><b>Not found !</b></h2>
+        }
+    </div>
+</body>
+</html>

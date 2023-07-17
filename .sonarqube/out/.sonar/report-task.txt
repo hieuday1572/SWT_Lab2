@@ -1,6 +1,6 @@
-projectKey=demolab2
+projectKey=testflm
 serverUrl=http://localhost:9000
 serverVersion=10.1.0.73491
-dashboardUrl=http://localhost:9000/dashboard?id=demolab2
-ceTaskId=AYlTscupDh2iZhzD_kpG
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYlTscupDh2iZhzD_kpG
+dashboardUrl=http://localhost:9000/dashboard?id=testflm
+ceTaskId=AYliS75-9aHhH2ptnySq
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYliS75-9aHhH2ptnySq

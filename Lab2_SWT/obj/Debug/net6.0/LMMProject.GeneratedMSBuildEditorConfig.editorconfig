@@ -9,397 +9,397 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LMMProject
 build_property.RootNamespace = LMMProject
-build_property.ProjectDir = D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\
+build_property.ProjectDir = D:\SWT lab\SWT_Lab2\Lab2_SWT\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT
+build_property.MSBuildProjectDirectory = D:\SWT lab\SWT_Lab2\Lab2_SWT
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINAssessments/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINAssessments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Bc3Nlc3NtZW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINAssessments/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINAssessments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Bc3Nlc3NtZW50c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINAssessments/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINAssessments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Bc3Nlc3NtZW50c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINAssessments/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINAssessments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Bc3Nlc3NtZW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINAssessments/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINAssessments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Bc3Nlc3NtZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINComboSubjects/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINComboSubjects/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1N1YmplY3RzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINComboSubjects/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINComboSubjects/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1N1YmplY3RzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINComboSubjects/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINComboSubjects/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1N1YmplY3RzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINComboSubjects/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINComboSubjects/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1N1YmplY3RzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINComboSubjects/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINComboSubjects/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1N1YmplY3RzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCombo/AddSubject.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCombo/AddSubject.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xBZGRTdWJqZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCombo/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCombo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCombo/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCombo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCombo/DeleteSubject.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCombo/DeleteSubject.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xEZWxldGVTdWJqZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCombo/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCombo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCombo/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCombo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCombo/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCombo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCurricula/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCurricula/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5DdXJyaWN1bGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCurricula/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCurricula/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5DdXJyaWN1bGFcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCurricula/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCurricula/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5DdXJyaWN1bGFcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCurricula/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCurricula/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5DdXJyaWN1bGFcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINCurricula/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINCurricula/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5DdXJyaWN1bGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINDecisions/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINDecisions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5EZWNpc2lvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINDecisions/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINDecisions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5EZWNpc2lvbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINDecisions/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINDecisions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5EZWNpc2lvbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINDecisions/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINDecisions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5EZWNpc2lvbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINDecisions/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINDecisions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5EZWNpc2lvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINMaterialOfTeacher/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINMaterialOfTeacher/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NYXRlcmlhbE9mVGVhY2hlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINMaterialOfTeacher/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINMaterialOfTeacher/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NYXRlcmlhbE9mVGVhY2hlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINMaterialOfTeacher/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINMaterialOfTeacher/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NYXRlcmlhbE9mVGVhY2hlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINMaterialOfTeacher/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINMaterialOfTeacher/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NYXRlcmlhbE9mVGVhY2hlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINMaterialOfTeacher/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINMaterialOfTeacher/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NYXRlcmlhbE9mVGVhY2hlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINMetarial/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINMetarial/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NZXRhcmlhbFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINMetarial/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINMetarial/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NZXRhcmlhbFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINMetarial/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINMetarial/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NZXRhcmlhbFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINMetarial/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINMetarial/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NZXRhcmlhbFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINMetarial/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINMetarial/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NZXRhcmlhbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSession/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSession/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TZXNzaW9uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSession/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSession/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TZXNzaW9uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSession/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSession/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TZXNzaW9uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSession/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSession/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TZXNzaW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSubject/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSubject/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TdWJqZWN0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSubject/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSubject/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TdWJqZWN0XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSubject/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSubject/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TdWJqZWN0XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSubject/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSubject/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TdWJqZWN0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSubject/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSubject/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TdWJqZWN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSyllabus/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSyllabus/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TeWxsYWJ1c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSyllabus/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSyllabus/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TeWxsYWJ1c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSyllabus/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSyllabus/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TeWxsYWJ1c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSyllabus/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSyllabus/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TeWxsYWJ1c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMINSyllabus/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMINSyllabus/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TeWxsYWJ1c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMIN/Dashboard.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMIN/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMIN/Infor.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMIN/Infor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5cSW5mb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/ADMIN/ListOfCombo.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/ADMIN/ListOfCombo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5cTGlzdE9mQ29tYm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Assessments/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Assessments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Assessments/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Assessments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Assessments/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Assessments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Assessments/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Assessments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Assessments/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Assessments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Comboes/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Comboes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Comboes/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Comboes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Comboes/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Comboes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Comboes/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Comboes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Comboes/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Comboes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Feedbacks/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Feedbacks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Feedbacks/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Feedbacks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Feedbacks/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Feedbacks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Feedbacks/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Feedbacks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Feedbacks/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Feedbacks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Login/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Sessions/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Sessions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Sessions/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Sessions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Sessions/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Sessions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Sessions/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Sessions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Sessions/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Sessions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Shared/Error.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Subjects/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Subjects/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Subjects/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Subjects/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Subjects/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Subjects/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Subjects/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Subjects/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Subjects/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Subjects/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserCurriculum/Detail.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserCurriculum/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckN1cnJpY3VsdW1cRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserCurriculum/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserCurriculum/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckN1cnJpY3VsdW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserDecision/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserDecision/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRlY2lzaW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserHome/Dashboard.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserHome/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckhvbWVcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserHome/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserHome/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckhvbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserHome/Infor.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserHome/Infor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckhvbWVcSW5mb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserHome/Privacy.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserHome/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckhvbWVcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserMaterialOfTeachers/Create.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserMaterialOfTeachers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hdGVyaWFsT2ZUZWFjaGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserMaterialOfTeachers/Delete.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserMaterialOfTeachers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hdGVyaWFsT2ZUZWFjaGVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserMaterialOfTeachers/Details.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserMaterialOfTeachers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hdGVyaWFsT2ZUZWFjaGVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserMaterialOfTeachers/Edit.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserMaterialOfTeachers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hdGVyaWFsT2ZUZWFjaGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/UserMaterialOfTeachers/Index.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/UserMaterialOfTeachers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hdGVyaWFsT2ZUZWFjaGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/_ViewImports.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/_ViewStart.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Lab2_SWT_before/Lab2_SWT/Lab2_SWT/Views/Shared/_Layout.cshtml]
+[D:/SWT lab/SWT_Lab2/Lab2_SWT/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ozjstm2aib

@@ -28,8 +28,10 @@ namespace LMMProject.Controllers
         {
             string userName = _Accessor.HttpContext.Session.GetString("Username");
             var Account = _context.Account.Include(p => p.Role).FirstOrDefault(pro => pro.UserName.Equals(userName));
-            var editAccount = new EditAccount()
+            if (Account != null)
             {
+                var editAccount = new EditAccount()
+                { 
                 UserName=Account.UserName,
                 Phone=Account.Phone,
                 Address=Account.Address,

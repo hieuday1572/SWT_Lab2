@@ -1,459 +1,459 @@
 {
   "Files": [
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LMMProject.bundle.scp.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LMMProject.bundle.scp.css",
       "PackagePath": "staticwebassets\\LMMProject.bundle.scp.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\.rescache",
       "PackagePath": "staticwebassets\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\.rescache",
       "PackagePath": "staticwebassets\\css\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\assessment.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\assessment.css",
       "PackagePath": "staticwebassets\\css\\assessment.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\combo - Copy.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\combo - Copy.css",
       "PackagePath": "staticwebassets\\css\\combo - Copy.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\combo.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\combo.css",
       "PackagePath": "staticwebassets\\css\\combo.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\contact.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\contact.css",
       "PackagePath": "staticwebassets\\css\\contact.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\crud-syllabus.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\crud-syllabus.css",
       "PackagePath": "staticwebassets\\css\\crud-syllabus.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\curri-details.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\curri-details.css",
       "PackagePath": "staticwebassets\\css\\curri-details.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\curri-listing.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\curri-listing.css",
       "PackagePath": "staticwebassets\\css\\curri-listing.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\curriculum.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\curriculum.css",
       "PackagePath": "staticwebassets\\css\\curriculum.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\decision.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\decision.css",
       "PackagePath": "staticwebassets\\css\\decision.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\delete-detail.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\delete-detail.css",
       "PackagePath": "staticwebassets\\css\\delete-detail.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\delete.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\delete.css",
       "PackagePath": "staticwebassets\\css\\delete.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\feedback.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\feedback.css",
       "PackagePath": "staticwebassets\\css\\feedback.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\home.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\learning-part.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\learning-part.css",
       "PackagePath": "staticwebassets\\css\\learning-part.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\learning.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\learning.css",
       "PackagePath": "staticwebassets\\css\\learning.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\login.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\site.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\syllabus-details.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\syllabus-details.css",
       "PackagePath": "staticwebassets\\css\\syllabus-details.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\syllabus-management.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\syllabus-management.css",
       "PackagePath": "staticwebassets\\css\\syllabus-management.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\css\\syllabus.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\css\\syllabus.css",
       "PackagePath": "staticwebassets\\css\\syllabus.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\favicon.ico",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\.rescache",
       "PackagePath": "staticwebassets\\html\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\combo.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\combo.html",
       "PackagePath": "staticwebassets\\html\\combo.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\contact.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\contact.html",
       "PackagePath": "staticwebassets\\html\\contact.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\curri-details.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\curri-details.html",
       "PackagePath": "staticwebassets\\html\\curri-details.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\curri-listing.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\curri-listing.html",
       "PackagePath": "staticwebassets\\html\\curri-listing.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\curriculum.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\curriculum.html",
       "PackagePath": "staticwebassets\\html\\curriculum.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\home.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\home.html",
       "PackagePath": "staticwebassets\\html\\home.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\learning-part.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\learning-part.html",
       "PackagePath": "staticwebassets\\html\\learning-part.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\learning.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\learning.html",
       "PackagePath": "staticwebassets\\html\\learning.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\login.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\login.html",
       "PackagePath": "staticwebassets\\html\\login.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\syllabus-details.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\syllabus-details.html",
       "PackagePath": "staticwebassets\\html\\syllabus-details.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\syllabus-management.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\syllabus-management.html",
       "PackagePath": "staticwebassets\\html\\syllabus-management.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\html\\syllabus.html",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\html\\syllabus.html",
       "PackagePath": "staticwebassets\\html\\syllabus.html"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\image\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\image\\.rescache",
       "PackagePath": "staticwebassets\\image\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\image\\Background-sach-mo-dep-nhat.jpg",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\image\\Background-sach-mo-dep-nhat.jpg",
       "PackagePath": "staticwebassets\\image\\Background-sach-mo-dep-nhat.jpg"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\image\\background-cuc-dep_110341249.jpg",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\image\\background-cuc-dep_110341249.jpg",
       "PackagePath": "staticwebassets\\image\\background-cuc-dep_110341249.jpg"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\image\\istockphoto-1138089745-170667a.jpg",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\image\\istockphoto-1138089745-170667a.jpg",
       "PackagePath": "staticwebassets\\image\\istockphoto-1138089745-170667a.jpg"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\image\\signin.svg",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\image\\signin.svg",
       "PackagePath": "staticwebassets\\image\\signin.svg"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\image\\signup.svg",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\image\\signup.svg",
       "PackagePath": "staticwebassets\\image\\signup.svg"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\js\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\js\\.rescache",
       "PackagePath": "staticwebassets\\js\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\js\\curriculum.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\js\\curriculum.js",
       "PackagePath": "staticwebassets\\js\\curriculum.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\js\\login.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\js\\site.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\.rescache",
       "PackagePath": "staticwebassets\\lib\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\.rescache",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\.rescache",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\.rescache",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\.rescache",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation-unobtrusive\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation-unobtrusive\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\dist\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\dist\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery\\dist\\.rescache",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery\\dist\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\.rescache"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Lab2_SWT_before\\Lab2_SWT\\Lab2_SWT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\SWT lab\\SWT_Lab2\\Lab2_SWT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

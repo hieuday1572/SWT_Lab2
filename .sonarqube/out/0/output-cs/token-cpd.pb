@@ -1,5 +1,5 @@
-‘a
-ND:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINAssessmentsController.cs
+Ãa
+FD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINAssessmentsController.cs
 	namespace 	
 
 LMMProject
@@ -922,8 +922,8 @@ Assessment
 ¶¶ 	
 }
 ßß 
-}®® êæ
-HD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINComboController.cs
+}®® àæ
+@D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINComboController.cs
 	namespace 	
 
 LMMProject
@@ -2979,8 +2979,8 @@ ActionName
 ´´ 	
 }
 ¨¨ 
-}≠≠ ƒp
-PD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINComboSubjectsController.cs
+}≠≠ ºp
+HD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINComboSubjectsController.cs
 	namespace 	
 
 LMMProject
@@ -3988,8 +3988,8 @@ ActionName
 ¨¨ 	
 }
 ≠≠ 
-}ÆÆ †1
-CD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINController.cs
+}ÆÆ ò1
+;D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINController.cs
 	namespace 	
 
 LMMProject
@@ -4348,8 +4348,8 @@ Curriculum33: D
 ;99% &
 }:: 	
 }<< 
-}== ≤…
-LD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINCurriculaController.cs
+}== ™…
+DD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINCurriculaController.cs
 	namespace 	
 
 LMMProject
@@ -6598,8 +6598,8 @@ Curriculum
 ˛˛ 	
 }
 ˇˇ 
-}ÄÄ ìg
-LD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINDecisionsController.cs
+}ÄÄ ãg
+DD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINDecisionsController.cs
 	namespace 	
 
 LMMProject
@@ -7613,8 +7613,8 @@ DecisionNo
 ≤≤ 	
 }
 ≥≥ 
-}¥¥ à[
-TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINMaterialOfTeacherController.cs
+}¥¥ Ä[
+LD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINMaterialOfTeacherController.cs
 	namespace 	
 
 LMMProject
@@ -8328,8 +8328,8 @@ ActionNamedd 
 ;xxW X
 }yy 	
 }zz 
-}{{ ı=
-KD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINMetarialController.cs
+}{{ Ì=
+CD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINMetarialController.cs
 	namespace 	
 
 LMMProject
@@ -8776,8 +8776,8 @@ MaterialIdKKb l
 ;\\2 3
 }]] 	
 }^^ 
-}__ Öj
-JD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSessionController.cs
+}__ ˝i
+BD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINSessionController.cs
 	namespace 	
 
 LMMProject
@@ -9712,8 +9712,8 @@ ActionName
 õõ 	
 }
 úú 
-}ùù ‰|
-JD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSubjectController.cs
+}ùù ‹|
+BD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINSubjectController.cs
 	namespace 	
 
 LMMProject
@@ -10924,8 +10924,8 @@ assessment
 ÆÆ 	
 }
 ±± 
-}≤≤ °`
-KD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSubjectsController.cs
+}≤≤ ô`
+CD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINSubjectsController.cs
 	namespace 	
 
 LMMProject
@@ -11803,8 +11803,8 @@ ActionName
 ¶¶ 	
 }
 ßß 
-}®® ∏î
-KD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSyllabusController.cs
+}®® ∞î
+CD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINSyllabusController.cs
 	namespace 	
 
 LMMProject
@@ -13316,8 +13316,8 @@ SyllabusId
 ‡‡ 	
 }
 ‚‚ 
-}„„ Ï_
-ED:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ComboesController.cs
+}„„ ‰_
+=D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ComboesController.cs
 	namespace 	
 
 LMMProject
@@ -14202,8 +14202,8 @@ ActionName
 ¶¶ 	
 }
 ßß 
-}®® ΩR
-GD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\FeedbacksController.cs
+}®® µR
+?D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\FeedbacksController.cs
 	namespace 	
 
 LMMProject
@@ -14952,8 +14952,8 @@ FeedbackId
 °° 	
 }
 ¢¢ 
-}££ è
-CD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\LoginController.cs
+}££ á
+;D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\LoginController.cs
 	namespace 	
 
 LMMProject
@@ -15193,8 +15193,8 @@ ModelState 
 ;44  !
 }66 	
 }77 
-}88 üR
-FD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\SessionsController.cs
+}88 óR
+>D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\SessionsController.cs
 	namespace 	
 
 LMMProject
@@ -15945,8 +15945,8 @@ ActionName
 °° 	
 }
 ¢¢ 
-}££ è`
-ED:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\SubjectController.cs
+}££ á`
+=D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\SubjectController.cs
 	namespace 	
 
 LMMProject
@@ -16825,8 +16825,8 @@ ActionName
 ¶¶ 	
 }
 ßß 
-}®® “*
-LD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserCurriculumController.cs
+}®®  *
+DD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\UserCurriculumController.cs
 	namespace 	
 
 LMMProject
@@ -17171,9 +17171,9 @@ Curriculum++( 2
 ;22 
 }33 	
 }55 
-}66 €
+}66 ”
 
-JD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserDecisionController.cs
+BD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\UserDecisionController.cs
 	namespace 	
 
 LMMProject
@@ -17250,8 +17250,8 @@ DecisionNo8 B
 ;! "
 } 	
 } 
-} â6
-FD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserHomeController.cs
+} Å6
+>D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\UserHomeController.cs
 	namespace 	
 
 LMMProject
@@ -17634,8 +17634,8 @@ Controller		& 0
 ;MMo p
 }NN 	
 }OO 
-}PP ˆã
-TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersController.cs
+}PP Óã
+LD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\UserMaterialOfTeachersController.cs
 	namespace 	
 
 LMMProject
@@ -18934,8 +18934,8 @@ ActionName
 ¥¥ 	
 }
 µµ 
-}∂∂ è 
-9D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Data\AppDbContext.cs
+}∂∂ á 
+1D:\SWT lab\SWT_Lab2\Lab2_SWT\Data\AppDbContext.cs
 	namespace 	
 
 LMMProject
@@ -19173,8 +19173,8 @@ LMMProject'' 
 ;''C D
 }''E F
 }(( 
-})) å
-8D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Data\EditAccount.cs
+})) Ñ
+0D:\SWT lab\SWT_Lab2\Lab2_SWT\Data\EditAccount.cs
 	namespace 	
 
 LMMProject
@@ -19310,8 +19310,8 @@ LMMProject
 ;$ %
 }& '
 }   
-}!! ﬂ
-6D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\flm\FlmContext.cs
+}!! ◊
+.D:\SWT lab\SWT_Lab2\Lab2_SWT\flm\FlmContext.cs
 	namespace 	
 
 LMMProject
@@ -19397,9 +19397,9 @@ FlmContext' 1
 modelBuilder5 A
 )A B
 ;B C
-} ª
+} ≥
 
-3D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\flm\Session.cs
++D:\SWT lab\SWT_Lab2\Lab2_SWT\flm\Session.cs
 	namespace 	
 
 LMMProject
@@ -19500,8 +19500,8 @@ LMMProject
 null. 2
 !2 3
 ;3 4
-} ∂
-6D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Account.cs
+} Æ
+.D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Account.cs
 	namespace 	
 
 LMMProject
@@ -19704,8 +19704,8 @@ LMMProject
 set%%% (
 ;%%( )
 }%%* +
-}'' ‹
-9D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Assessment.cs
+}'' ‘
+1D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Assessment.cs
 	namespace 	
 
 LMMProject
@@ -19905,8 +19905,8 @@ SyllabusId%% 
 set&&- 0
 ;&&0 1
 }&&2 3
-}'' ƒ
-4D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Combo.cs
+}'' º
+,D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Combo.cs
 	namespace 	
 
 LMMProject
@@ -20014,9 +20014,8 @@ Curriculum )
 set1 4
 ;4 5
 }6 7
-} É
-
-;D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\ComboSubject.cs
+} ˚	
+3D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\ComboSubject.cs
 	namespace 	
 
 LMMProject
@@ -20102,8 +20101,8 @@ ForeignKey 
 set" %
 ;% &
 }' (
-} ¥
-9D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Curriculum.cs
+} ¨
+1D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Curriculum.cs
 	namespace 	
 
 LMMProject
@@ -20224,8 +20223,8 @@ DecisionNo 
 set- 0
 ;0 1
 }2 3
-} Ó
-@D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\CurriculumSubject.cs
+} Ê
+8D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\CurriculumSubject.cs
 	namespace 	
 
 LMMProject
@@ -20326,8 +20325,8 @@ ForeignKey 
 set  #
 ;# $
 }% &
-} ‘
-7D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Decision.cs
+} Ã
+/D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Decision.cs
 	namespace 	
 
 LMMProject
@@ -20406,8 +20405,8 @@ CreateDate 
 set' *
 ;* +
 }, -
-} ò
-=D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\ErrorViewModel.cs
+} ê
+5D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\ErrorViewModel.cs
 	namespace 	
 
 LMMProject
@@ -20443,8 +20442,8 @@ LMMProject
 )D E
 ;E F
 } 
-}		 ¿
-7D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Feedback.cs
+}		 ∏
+/D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Feedback.cs
 	namespace 	
 
 LMMProject
@@ -20554,8 +20553,8 @@ CreateDate #
 ;. /
 }0 1
 } 
-} Â
-7D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Material.cs
+} ›
+/D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Material.cs
 	namespace 	
 
 LMMProject
@@ -20668,8 +20667,8 @@ ForeignKey	 
 ;1 2
 }3 4
 } 
-} ˇ
-BD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\MaterialFilterModel.cs
+} ˜
+:D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\MaterialFilterModel.cs
 	namespace 	
 
 LMMProject
@@ -20704,8 +20703,8 @@ LMMProject
 ;0 1
 }2 3
 } 
-} ß
-@D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\MaterialOfTeacher.cs
+} ü
+8D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\MaterialOfTeacher.cs
 	namespace 	
 
 LMMProject
@@ -20859,8 +20858,8 @@ ForeignKey 
 set  #
 ;# $
 }% &
-} Ê
-3D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Role.cs
+} ﬁ
++D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Role.cs
 	namespace 	
 
 LMMProject
@@ -20938,8 +20937,8 @@ LMMProject
 (R S
 )S T
 ;T U
-} ◊
-6D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Session.cs
+} œ
+.D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Session.cs
 	namespace 	
 
 LMMProject
@@ -21044,8 +21043,8 @@ ForeignKey 
 set+ .
 ;. /
 }0 1
-} ı
-5D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Status.cs
+} Ì
+-D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Status.cs
 	namespace 	
 
 LMMProject
@@ -21101,8 +21100,8 @@ StatusName 
 set% (
 ;( )
 }* +
-} ç
-6D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Subject.cs
+} Ö
+.D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Subject.cs
 	namespace 	
 
 LMMProject
@@ -21195,8 +21194,8 @@ ForeignKey 
 set( +
 ;+ ,
 }- .
-} ∏!
-7D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Syllabus.cs
+} ∞!
+/D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Syllabus.cs
 	namespace 	
 
 LMMProject
@@ -21472,8 +21471,8 @@ Assessment22 )
 set22> A
 ;22A B
 }22C D
-}55 ≥
-/D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Program.cs
+}55 ´
+'D:\SWT lab\SWT_Lab2\Lab2_SWT\Program.cs
 var 
 builder 
 = 

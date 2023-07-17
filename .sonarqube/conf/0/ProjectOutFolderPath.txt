@@ -1,1 +1,1 @@
-D:\Lab2_SWT_before\Lab2_SWT\.sonarqube\out\0
+D:\SWT lab\SWT_Lab2\.sonarqube\out\0

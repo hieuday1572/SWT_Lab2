@@ -1,5 +1,5 @@
-Ø
-ND:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINAssessmentsController.cs
+ß
+FD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINAssessmentsController.cs
 
  +Í
 & .  '   &%%# +334 <@@ AA DD4 <KK &PP# +UU4 <ii jj "yy4 <
@@ -67,8 +67,8 @@ ND:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINAssessmentsController.cs
 ••B D
 
 ••+ ,
-••0 1ä
-HD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINComboController.cs
+••0 1Ç
+@D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINComboController.cs
 
  %Ü
 & .  ' $"" $$$ &88  (;; << "LL &QQ &ff gg "vv6 >}} &
@@ -236,8 +236,8 @@ HD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINComboController.cs
 ™™8 :
 
 ™™& '
-™™+ ,Ω	
-PD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINComboSubjectsController.cs
+™™+ ,µ	
+HD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINComboSubjectsController.cs
 
  -í
 & .  '   &%%% -441 9555 =BB CC FF1 9GG5 =NN &SS% -XX1 9YY5 =mm nn "}}1 9~~5 =
@@ -309,8 +309,8 @@ PD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINComboSubjectsController.c
 ´´; =
 
 ´´. /
-´´3 4ç
-CD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINController.cs
+´´3 4Ö
+;D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINController.cs
 
   Z
 
@@ -345,8 +345,8 @@ CD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINController.cs
 66 )
 88 99 $
 88> ?88C D
-88V W88Z [ü
-LD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINCurriculaController.cs
+88V W88Z [ó
+DD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINCurriculaController.cs
 
  )Ã
 & . 3 ;   &%%# +(( #554 <CC, 4FF GG "OO4 <VV &[[# +``4 <tt uu "
@@ -536,8 +536,8 @@ LD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINCurriculaController.cs
 ˝˝B D
 
 ˝˝+ ,
-˝˝0 1Å	
-LD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINDecisionsController.cs
+˝˝0 1˘
+DD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINDecisionsController.cs
 
  )Ü
 & .  % -!! &&&! )==  BB CC "NN &SS! )kk ll "
@@ -617,8 +617,8 @@ LD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINDecisionsController.cs
 ±±> @
 
 ±±) *
-±±. /¡	
-TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINMaterialOfTeacherController.cs
+±±. /π	
+LD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINMaterialOfTeacherController.cs
 
  1
 
@@ -670,8 +670,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINMaterialOfTeacherControll
 
 vv ,
 vv1 3xx? A
-xx2 3xx7 8“
-KD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINMetarialController.cs
+xx2 3xx7 8 
+CD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINMetarialController.cs
 
 		 (å
 & . " *! )   !! ''! )..! )::! )AA CC KK! )YY ZZ 
@@ -704,8 +704,8 @@ KD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINMetarialController.cs
 II) 5P
 II? DKK\ aRR+ 0SS #TT! &UU% *VV  WW# (Z
 KK MM RR SS TT UU VV WW YY% -
-KKG HKKL Mø	
-JD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSessionController.cs
+KKG HKKL M∑	
+BD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINSessionController.cs
 
  '–
 & .  " &""5 =:: ;; AA5 =HH &MM  (RR5 =bb cc "rr5 =yy &~~  (
@@ -771,8 +771,8 @@ JD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSessionController.cs
 öö< >
 
 öö( )
-öö- .∂
-JD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSubjectController.cs
+öö- .Æ
+BD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINSubjectController.cs
 
  'Ã
 & . 6 >""5 =66 77 ??2 :GG &LL  (QQ2 :^^  (gg tt2 :|| &
@@ -880,8 +880,8 @@ JD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSubjectController.cs
 ≠≠ 
 
 ¨¨2 3
-¨¨7 8¨
-KD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSubjectsController.cs
+¨¨7 8§
+CD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINSubjectsController.cs
 
  (Í
 & .  '   &%%  (332 :@@ AA DD2 :KK &PP  (UU2 :ii jj "yy2 :
@@ -949,8 +949,8 @@ KD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSubjectsController.cs
 ••@ B
 
 ••* +
-••/ 0ƒ
-KD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSyllabusController.cs
+••/ 0º
+CD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ADMINSyllabusController.cs
 
  (˙
 & .  '%%! )44 "554 <[[ \\ ff4 <oo &tt! )yy "zz4 <
@@ -1077,8 +1077,8 @@ KD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ADMINSyllabusController.cs
 ﬂﬂ 
 
 ﬁﬁ3 4
-ﬁﬁ8 9£
-ED:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ComboesController.cs
+ﬁﬁ8 9õ
+=D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\ComboesController.cs
 
  "Í
 & .  '   &%% &336 >@@ AA DD6 >KK &PP &UU6 >ii jj "yy6 >
@@ -1144,8 +1144,8 @@ ED:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\ComboesController.cs
 ••8 :
 
 ••& '
-••+ ,ã
-GD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\FeedbacksController.cs
+••+ ,É
+?D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\FeedbacksController.cs
 
  $ 
 & .  % -!! &&&! )?? @@ II &NN! )ff gg "|| &
@@ -1204,8 +1204,8 @@ GD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\FeedbacksController.cs
 ††> @
 
 ††) *
-††. /›
-CD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\LoginController.cs
+††. /’
+;D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\LoginController.cs
 
 
 
@@ -1220,8 +1220,8 @@ CD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\LoginController.cs
 7 > #v }!!) 011 #44 <
   !! ##> B$$> B&& 
 : ;? @
-[ ^b eã
-FD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\SessionsController.cs
+[ ^b eÉ
+>D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\SessionsController.cs
 
  # 
 & .  % -!! &&&  (?? @@ II &NN  (ff gg "|| &
@@ -1281,8 +1281,8 @@ FD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\SessionsController.cs
 ††< >
 
 ††( )
-††- .¶
-ED:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\SubjectController.cs
+††- .û
+=D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\SubjectController.cs
 
  "Í
 & .  '   &%%  (332 :@@ AA DD2 :KK &PP  (UU2 :ii jj "yy2 :
@@ -1350,8 +1350,8 @@ ED:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\SubjectController.cs
 ••> @
 
 ••( )
-••- .Ï
-LD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserCurriculumController.cs
+••- .‰
+DD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\UserCurriculumController.cs
 
  )<
 
@@ -1378,8 +1378,8 @@ LD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserCurriculumController.cs
 ++[ \++^ _
 ,, --  )
 ,,@ A,,E F
-,,V Y,,] `‹
-JD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserDecisionController.cs
+,,V Y,,] `‘
+BD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\UserDecisionController.cs
 
  '
 & .  #
@@ -1388,8 +1388,8 @@ JD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserDecisionController.cs
  "
 * ,J L
    
-3 46 7
-FD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserHomeController.cs
+3 46 7Ë
+>D:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\UserHomeController.cs
 		 #! 3* <<
 & .  "22  (DD EE 
 . 7  '
@@ -1413,8 +1413,8 @@ FD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserHomeController.cs
 229 :22> ?
 22U X22\ _
 
-KK "…
-TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersController.cs
+KK "¡
+LD:\SWT lab\SWT_Lab2\Lab2_SWT\Controllers\UserMaterialOfTeachersController.cs
 
  1˛
 & .  ""% -&&% ---% -55! )>>9 A??5 =JJ !MM NN "XX &]]* 2pp !vv  ww &
@@ -1515,8 +1515,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 ≥≥? A
 
 ≥≥2 3
-≥≥7 8õ
-9D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Data\AppDbContext.cs
+≥≥7 8ì
+1D:\SWT lab\SWT_Lab2\Lab2_SWT\Data\AppDbContext.cs
  		- 9
 		; B		K R
 
@@ -1548,8 +1548,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
 %%' /
 
-''1 8÷
-8D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Data\EditAccount.cs
+''1 8Œ
+0D:\SWT lab\SWT_Lab2\Lab2_SWT\Data\EditAccount.cs
 
  
 
@@ -1575,8 +1575,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
  !
 
-  
-6D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\flm\FlmContext.cs
+ ¬
+.D:\SWT lab\SWT_Lab2\Lab2_SWT\flm\FlmContext.cs
  ' 1
 3 : 
 
@@ -1587,8 +1587,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 9 E +
  ' 
 
-5 Aâ
-3D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\flm\Session.cs
+5 AÅ
++D:\SWT lab\SWT_Lab2\Lab2_SWT\flm\Session.cs
 
  
 
@@ -1604,8 +1604,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
  '
 
- ‘
-6D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Account.cs
+ Ã
+.D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Account.cs
 
  
 
@@ -1631,8 +1631,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
 ## 
 
-%% ˚
-9D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Assessment.cs
+%% Û
+1D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Assessment.cs
 
  
 
@@ -1664,8 +1664,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
 %% 
 
-&& %ñ
-4D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Combo.cs
+&& %é
+,D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Combo.cs
 
  
 
@@ -1681,8 +1681,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
  
 
- )Ö
-;D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\ComboSubject.cs
+ )}
+3D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\ComboSubject.cs
 
  !
 
@@ -1694,8 +1694,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
  
 
- õ
-9D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Curriculum.cs
+ ì
+1D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Curriculum.cs
 
  
 
@@ -1711,8 +1711,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
  
 
- %ñ
-@D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\CurriculumSubject.cs
+ %é
+8D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\CurriculumSubject.cs
 
  &
 
@@ -1726,8 +1726,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
  "
 
- u
-7D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Decision.cs
+ m
+/D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Decision.cs
 
  
 
@@ -1739,14 +1739,14 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
  
 
- m
-=D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\ErrorViewModel.cs
+ e
+5D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\ErrorViewModel.cs
 
  
   ; D
 
- !ô
-7D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Feedback.cs
+ !ë
+/D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Feedback.cs
 
  !
 
@@ -1762,8 +1762,8 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
  
 
- #•
-7D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Material.cs
+ #ù
+/D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Material.cs
 
  
 
@@ -1783,15 +1783,15 @@ TD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Controllers\UserMaterialOfTeachersControll
 
  !
 
- &h
-BD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\MaterialFilterModel.cs
+ &`
+:D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\MaterialFilterModel.cs
 
  $
 
   
 
- %Æ
-@D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\MaterialOfTeacher.cs
+ %¶
+8D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\MaterialOfTeacher.cs
 
  &
 
@@ -1809,8 +1809,8 @@ BD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\MaterialFilterModel.cs
 
  
 
- e
-3D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Role.cs
+ ]
++D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Role.cs
 
  
 
@@ -1820,8 +1820,8 @@ BD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\MaterialFilterModel.cs
 
  
 
-( 0ò
-6D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Session.cs
+( 0ê
+.D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Session.cs
 
  
 
@@ -1837,8 +1837,8 @@ BD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\MaterialFilterModel.cs
 
  
 
- #[
-5D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Status.cs
+ #S
+-D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Status.cs
 
  
 
@@ -1846,8 +1846,8 @@ BD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\MaterialFilterModel.cs
 
  
 
- å
-6D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Subject.cs
+ Ñ
+.D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Subject.cs
 
  
 
@@ -1861,8 +1861,8 @@ BD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\MaterialFilterModel.cs
 
  
 
-  µ
-7D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\Syllabus.cs
+  ≠
+/D:\SWT lab\SWT_Lab2\Lab2_SWT\Models\Syllabus.cs
 
  
 
@@ -1904,8 +1904,8 @@ BD:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Models\MaterialFilterModel.cs
 
 00 
 
-22+ 6è
-/D:\Lab2_SWT_before\Lab2_SWT\Lab2_SWT\Program.csN
+22+ 6á
+'D:\SWT lab\SWT_Lab2\Lab2_SWT\Program.csN
  		 
 
  
